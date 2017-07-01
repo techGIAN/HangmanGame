@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <link href="hangman.css" type="text/css" rel="stylesheet" />
+    <script src="hangman.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div>
+      <img id="hang" src="hangman6.png" alt="hangmanFig" /> <br/>
+      <p id="word">Press New Game to Play</p> <br />
+      <input id="typeTextHere" size=3 maxLength=1></input>
+      <button id="guessButton" onclick="guess();" disabled=true>Guess</button><br />
+      <p>
+        <button onclick="startup();">New Game</button><br />
+      </p>
+      <p>Guesses: <span id="guessList"></span></p>
+      <p id="cA"></p>
+      <p id="message"></p> <br />
+      <p>Guesses Left: <span id="tries"></span></p><br />
+    </div>
+  </body>
+</html>
