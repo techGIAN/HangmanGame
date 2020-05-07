@@ -1,9 +1,9 @@
 # HangmanGame
-This simple game of Hangman demonstrates the use of the basic concepts of HTML and JavaScript.
+A simple game of Hangman that demonstrates the use of the basic concepts of HTML and JavaScript.
 
 ## Pre-requisites and Requirements
 - Web Browser
-- Setup: double click `hangman.html`
+- Click on <a href='https://htmlpreview.github.io/?https://github.com/techGIAN/HangmanGame/blob/master/hangman.html' target="_blank">here</a> to start game
 
 ## Screenshots
 ![screenshot_1](screenshots/Screenshot_1.png)
@@ -16,6 +16,9 @@ This simple game of Hangman demonstrates the use of the basic concepts of HTML a
 - In the box, type in any letter to make a guess.
 - Make as many guesses as you can until you win or run out of guesses (and lose).
 - You win if you guess the word correctly.
+
+## Did You Know?
+- This one of my first individiual projects as a freshman.
 
 ## License
 Apache License <br />
